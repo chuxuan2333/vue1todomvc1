@@ -1,0 +1,79 @@
+{
+  "name": "exchange",
+  "version": "0.1.0",
+  "author": "zhangsan <zhangsan@163.com>",
+  "description": "第一个node.js程序",
+  "keywords": [
+    "node.js",
+    "javascript"
+  ],
+  "private": true,
+  "bugs": {
+    "url": "http://path/to/bug",
+    "email": "bug@example.com"
+  },
+  "contributors": [
+    {
+      "name": "李四",
+      "email": "lisi@example.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://path/to/url"
+  },
+  "homepage": "http://necolas.github.io/normalize.css",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1"
+  },
+  "devDependencies": {
+    "browserify": "~13.0.0",
+    "karma-browserify": "~5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "bin": {
+    "webpack": "./bin/webpack.js"
+  },
+  "main": "lib/webpack.js",
+  "module": "es/index.js",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "engines": {
+    "node": ">=0.10.3 <0.12"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "style": [
+    "./node_modules/tipso/src/tipso.css"
+  ],
+  "files": [
+    "lib/",
+    "bin/",
+    "buildin/",
+    "declarations/",
+    "hot/",
+    "web_modules/",
+    "schemas/",
+    "SECURITY.md"
+  ]
+}
